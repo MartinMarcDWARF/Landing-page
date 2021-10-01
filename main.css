@@ -1,94 +1,66 @@
-body
-{
-  cursor: url('HU.cur'), pointer;
+body, html {
+  height: 100%;
+  background-color: black;
+  font-family: "Baskerville Old Face";
 }
-/* Add a black background color to the top navigation */
-.topnav
+#bouton
 {
-  background-color: #000;
-  overflow: hidden;
-  padding-left: 38%;
-  float: center;
+  padding-left: 150px;
 }
 #LogoM
 {
- display: flex;
- position: absolute;
- float: center;
- margin-left: 120px;
+  margin-left: 70px;
+  position: relative;
+  left: 40px;
 }
-.container
+#topnav
 {
-  opacity: 60%;
-  margin-top: -90px;
-}
-/* Style the links inside the navigation bar */
-.bleft
-{
-  margin-left: -40px;
-}
-.topnav a
-{
-  float: left;
-  display: block;
+  background-color: black;
+  float: inline-start;
+  display: flex ;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 10px;
   text-decoration: none;
-  font-size: 17px;
+  font-family: "Baskerville Old Face";
 }
-
-/* Change the color of links on hover */
-.topnav a:hover 
+#erebor
 {
-  background-color: #ddd;
-  color: black;
+  opacity: 65%;
+  padding-top: 120px;
 }
-
-/* Add an active class to highlight the current page */
-.topnav a.active
- {
-  background-color: #000;
-  color: white;
+div
+{ 
+  text-align: center;
 }
-
-/* Hide the link that should open and close the topnav on small screens */
-.topnav .icon 
+.container a
 {
-  display: none;
+  font-family: "Baskerville Old Face", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 20px;
 }
-.jumbotron-fluid 
-{
-  background-image: url("Grp1.jpg");
+.parallax {
+  /* The image used */
+  background-image: url('Grp1.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 800px;
 }
- .Wallet
-{
-  font-size: 150px;
-}
-.Parasol
-{
-  font-size: 150px;
-}
-.Commu
-{
-  font-size: 150px;
-}
-.card-text
-{
-  font-size: 14px;
-}
-.card
-{
-  border: none;
-  background-color: transparent;
-}
-.Audio
-{
- display: none;
- border: none;
- background-color: none;
- visibility: hidden;
+.parallax2 {
+  /* The image used */
+  background-image: url('Grp2.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
