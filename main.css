@@ -1,0 +1,94 @@
+body
+{
+  cursor: url('HU.cur'), pointer;
+}
+/* Add a black background color to the top navigation */
+.topnav
+{
+  background-color: #000;
+  overflow: hidden;
+  padding-left: 38%;
+  float: center;
+}
+#LogoM
+{
+ display: flex;
+ position: absolute;
+ float: center;
+ margin-left: 120px;
+}
+.container
+{
+  opacity: 60%;
+  margin-top: -90px;
+}
+/* Style the links inside the navigation bar */
+.bleft
+{
+  margin-left: -40px;
+}
+.topnav a
+{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover 
+{
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active
+ {
+  background-color: #000;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon 
+{
+  display: none;
+}
+.jumbotron-fluid 
+{
+  background-image: url("Grp1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+ .Wallet
+{
+  font-size: 150px;
+}
+.Parasol
+{
+  font-size: 150px;
+}
+.Commu
+{
+  font-size: 150px;
+}
+.card-text
+{
+  font-size: 14px;
+}
+.card
+{
+  border: none;
+  background-color: transparent;
+}
+.Audio
+{
+ display: none;
+ border: none;
+ background-color: none;
+ visibility: hidden;
+}
